@@ -1,0 +1,61 @@
+#header {
+    height: 50px;
+    width: 100%;
+    border-bottom: outset;
+    border-color: orange;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+#overview {
+    height:200px;
+    background-color: lightblue;
+    display: flex;
+}
+#overview_title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#description {
+    margin-top: 10px;
+    height:auto;
+    color:black;
+    float:left;
+    max-width: 45%;
+    font-size: 20px;
+}
+
+#picture {
+    margin-top: 35px;
+    margin-left: auto;
+    flex-direction: flex-end;
+    float:right;
+    width:50%;
+}
+
+#biography {
+    background-color: lightgreen;
+}
+
+#portfolio {
+    background-color: lightseagreen;
+}
+
+.subheader {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.subtext {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.d1 {
+    margin-top: 16px;
+    width: 90%;
+}
